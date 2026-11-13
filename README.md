@@ -18,6 +18,6 @@ Connect this GitHub repository to Cloudflare Pages and use:
 - Build output directory: `dist`
 - Environment variable: `NODE_VERSION=22`
 
-The `public/_redirects` file keeps the Product, Demo, Plans, and Integrations routes working on direct visits and page refreshes.
+Cloudflare Pages automatically serves the SPA entry point for routes that do not match a static asset, so the Product, Demo, Plans, and Integrations routes work on direct visits and page refreshes.
 
 GitHub Actions runs the production build on pushes and pull requests.
